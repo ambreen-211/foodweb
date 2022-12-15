@@ -1,0 +1,109 @@
+
+li{
+    display: inline-block;
+    margin-left: 23px;
+    
+
+}
+.header{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-left: -300px;
+    font-size: medium;
+    color: white;
+   background-color: #1a1a1a;
+   height: 350px;
+}
+.reg{
+    float: right;
+    margin-right: 50px;
+    font-size: medium;
+    
+}
+img{
+    height: 210px;
+    width: 700px;
+    margin-top: 45px;
+    
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    
+}
+.navlist{
+    text-decoration: none;
+    
+ 
+     width: fit-content;
+    
+     background-color: #ffb606;  
+      
+    
+}
+.active{
+    margin-left: 80px;
+    
+    padding: 10px;
+    position: relative;
+
+    
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: -70px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: -40px;
+    padding: 20px;
+    
+}
+/* .active,:hover
+{
+    color: white;
+       
+
+} */
+.sub-menu-1{
+    display: none;
+    position: absolute;
+    /* border: 2px solid red; */
+
+   
+    
+}
+.active:hover  .sub-menu-1{
+    display: block;
+    background-color: white;
+    margin-top: 10px;
+    width: 140px;
+}
+.sub-menu-1{
+    width: 100px;
+    margin-left: -25px;
+ 
+}
+ .container{
+    display: block;
+    height: 130px;
+    width: 120px;
+    margin-left: -40px;
+    
+    
+    
+}
+
+.olevel p{
+    font-size: large;
+}
+p{
+    margin-left: 200px;
+    margin-right: 290px;
+}
